@@ -1,0 +1,39 @@
+<!DOCTYPE html> <!-- Declaration of the HTML document type -->
+<html lang="en"> <!-- The root HTML element with the language attribute set to English -->
+<head>
+    <meta charset="UTF-8"> <!-- Character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Setting the viewport for responsive design -->
+    <title>Document</title> <!-- Title of the HTML document (you can fill it in) -->
+</head>
+<body>
+    <!-- Using the <picture> element to provide multiple image sources -->
+    <picture>
+        <source srcset="./resources/144p.png"> <!-- Image source for 144p resolution -->
+        <source srcset="./resources/360p.png"> <!-- Image source for 360p resolution -->
+        <source srcset="./resources/480p.png"> <!-- Image source for 480p resolution -->
+        <img src="./resources/1080p.png" alt=""> <!-- Default image source for 1080p resolution -->
+    </picture>
+
+    <!-- Using the <figure> element to group an image and its caption -->
+    <figure>
+        <img src="./resources/720p.png" alt=""> <!-- Image source for 720p resolution -->
+        <figcaption align="center">Caption of 720p Image</figcaption> <!-- Caption for the image -->
+    </figure>
+
+    <!-- Creating an ordered list (numbered list) -->
+    <ol>
+        <li>Aditya</li> <!-- List item 1 -->
+        <li>Prasoon</li> <!-- List item 2 -->
+        <li>Ravi</li> <!-- List item 3 -->
+        <li>Rectangle</li> <!-- List item 4 -->
+    </ol>
+
+    <!-- Creating an unordered list (bullet points) -->
+    <ul>
+        <li>Apple</li> <!-- List item 1 -->
+        <li>Banana</li> <!-- List item 2 -->
+        <li>Orange</li> <!-- List item 3 -->
+        <li>Papaya</li> <!-- List item 4 -->
+    </ul>
+</body>
+</html>

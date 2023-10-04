@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<h2>HTML5 Form Attributes Example</h2>
+    
+    <!-- The <form> element starts here -->
+
+    <form
+        accept-charset="UTF-8"               <!-- Character encoding for server data -->
+        action="process_form.php"            <!-- URL where form data will be sent -->
+        autocomplete="on"                    <!-- Enable form field auto-completion -->
+        enctype="multipart/form-data"        <!-- Encoding type for file uploads -->
+        method="post"                        <!-- HTTP method for submitting data -->
+        name="exampleForm"                   <!-- Assigning a name to the form -->
+        novalidate                           <!-- Disable form data validation -->
+        target="_blank">                     <!-- Open response in a new window -->
+
+        <!-- Form input fields with labels -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <label for="resume">Resume (PDF only):</label>
+        <input type="file" id="resume" name="resume" accept=".pdf" required><br><br>
+        
+        <!-- Submit button -->
+        <button type="submit">Submit</button>
+    </form>
+    <!-- The <form> element ends here -->
+</body>
+</html>

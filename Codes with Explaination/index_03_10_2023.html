@@ -1,0 +1,53 @@
+<!-- Your existing code -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* CSS for class selector */
+        .highlight {
+            background-color: yellow;
+        }
+    
+        /* CSS for id selector */
+        #special {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Heading -->
+    <h1>This is a heading</h1>
+
+    <!-- Paragraph with a class -->
+    <p class="highlight">This is a paragraph with a class.</p>
+
+    <!-- Paragraph with an ID -->
+    <p id="special">This is a paragraph with an ID.</p>
+
+    <!-- Another paragraph with the same class -->
+    <p class="highlight">Another paragraph with the same class.</p>
+
+    <!-- Another paragraph with the same ID (not recommended) -->
+    <p id="special">Another paragraph with the same ID (not recommended).</p>
+</body>
+</html>
+<!-- End of existing code -->
+
+<!-- Adding <fieldset>, <legend>, and <label> elements for a form -->
+<fieldset>
+    <!-- The <legend> element provides a title for the fieldset -->
+    <legend>Form Elements</legend>
+
+    <!-- Label for the username input field -->
+    <label for="username">Username:</label>
+    <!-- Input field for username with a unique ID -->
+    <input type="text" id="username" name="username">
+    
+    <!-- Label for the password input field -->
+    <label for="password">Password:</label>
+    <!-- Input field for the password with a unique ID -->
+    <input type="password" id="password" name="password">
+</fieldset>

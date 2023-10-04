@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Tags Example</title>
+</head>
+<body>
+    <!-- Resource 1: !DOCTYPE -->
+    <!DOCTYPE html>
+    <hr>
+    
+    <!-- Resource 2: Anchor (a) -->
+    <a href="https://www.example.com" target="_blank" title="Visit Example">Visit Example</a>
+    <hr>
+    
+    <!-- Resource 3: Image (img) -->
+    <img src="image.jpg" alt="Image Description" width="300" height="200">
+    <hr>
+    
+    <!-- Abbreviation (abbr) -->
+    <abbr title="World Health Organization">WHO</abbr>
+    <hr>
+
+    <!-- Acronym (acronym) -->
+    <acronym title="As Soon As Possible">ASAP</acronym>
+    <hr>
+    
+    <!-- Address (address) -->
+    <address>
+        Contact us at <a href="mailto:contact@example.com">contact@example.com</a>
+    </address>
+    <hr>
+    
+    <!-- Article (article) -->
+    <article>
+        <h1>Article Title</h1>
+        <p>This is the content of the article.</p>
+    </article>
+    <hr>
+    
+    <!-- Bold (b) -->
+    <b>Bold Text</b>
+    <hr>
+    
+    <!-- Break (br) -->
+    Line 1<br>Line 2
+    <hr>
+    
+    <!-- Button (button) -->
+    <button type="button" onclick="alert('Button Clicked')">Click Me</button>
+    <hr>
+    
+    <!-- Caption (caption) -->
+    <table border="1">
+        <caption>Table Caption</caption>
+        <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+        </tr>
+    </table>
+    <hr>
+    
+    <!-- Canvas (canvas) -->
+    <canvas id="myCanvas" width="200" height="100"></canvas>
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var context = canvas.getContext("2d");
+        context.fillStyle = "red";
+        context.fillRect(0, 0, 200, 100);
+    </script>
+    <hr>
+    
+    <!-- Center (center) - Deprecated -->
+    <center>Centered Text</center>
+    <hr>
+    
+    <!-- Cite (cite) -->
+    <cite>Book Title</cite>
+    <hr>
+    
+    <!-- Code (code) -->
+    <code>var x = 10;</code>
+    <hr>
+    
+    <!-- Data (data) -->
+    <p>The speed of light is <data value="299792458">m/s</data>.</p>
+    <hr>
+    
+    <!-- Datalist (datalist) -->
+    <input list="fruits">
+    <datalist id="fruits">
+        <option value="Apple">
+        <option value="Banana">
+        <option value="Cherry">
+    </datalist>
+    <hr>
+    
+    <!-- Definition Description (dd) and Definition Term (dt) -->
+    <dl>
+        <dt>Term 1</dt>
+        <dd>Definition 1</dd>
+        <dt>Term 2</dt>
+        <dd>Definition 2</dd>
+    </dl>
+    <hr>
+    
+    <!-- Details (details) and Summary (summary) -->
+    <details>
+        <summary>Click to expand</summary>
+        <p>Hidden content revealed.</p>
+    </details>
+    <hr>
+    
+    <!-- Dialog (dialog) -->
+    <dialog open>
+        <p>This is a dialog box.</p>
+        <button>Close</button>
+    </dialog>
+    <hr>
+    
+    <!-- Division (div) -->
+    <div style="background-color: lightblue;">
+        <p>Division Content</p>
+    </div>
+    <hr>
+    
+    <!-- Description List (dl), List Item (li) -->
+    <dl>
+        <dt>Item 1</dt>
+        <dd>Description 1</dd>
+        <dt>Item 2</dt>
+        <dd>Description 2</dd>
+    </dl>
+    <hr>
+    
+    <!-- Emphasized (em) -->
+    <em>Emphasized Text</em>
+    <hr>
+    
+    <!-- Fieldset (fieldset) and Legend (legend) -->
+    <fieldset>
+        <legend>Fieldset Legend</legend>
+        <input type="radio" name="option" value="Option 1">Option 1
+        <input type="radio" name="option" value="Option 2">Option 2
+    </fieldset>
+    <hr>
+    
+    <!-- Figure (figure) and Figcaption (figcaption) -->
+    <figure>
+        <img src="figure.jpg" alt="Figure Image">
+        <figcaption>Figure Caption</figcaption>
+    </figure>
+    <hr>
+    
+    <!-- Font (font) - Deprecated -->
+    <font size="4" color="blue">Colored Text</font>
+    <hr>
+    
+    <!-- Footer (footer) -->
+    <footer>
+        &copy; 2023 Example Footer
+    </footer>
+    <hr>
+    
+    <!-- Form (form) -->
+    <form action="submit.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <hr>
+    
+    <!-- Frame (frame) - Deprecated -->
+    <frame src="frame.html">
+    <hr>
+    
+    <!-- Frameset (frameset) - Deprecated -->
+    <frameset cols="25%, 75%">
+        <frame src="frame1.html">
+        <frame src="frame2.html">
+    </frameset>
+    <hr>
+    
+    <!-- Head (head) - Contains metadata -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="HTML Tags Example">
+        <meta name="author" content="Author Name">
+    </head>
+    <hr>
+    
+    <!-- Header (header) -->
+    <header>
+        <h1>Website Header</h1>
+    </header>
+    <hr>
+    
+    <!-- Heading (h1-h6) -->
+    <h1>Heading 1</h1>
+    <hr>
+    
+    <h2>Heading 2</h2>
+    <hr>
+    
+    <h3>Heading 3</h3>
+    <hr>
+    
+    <!-- Horizontal Rule (hr) -->
+    <hr>
+    
+    <!-- HTML (html) - Root element -->
+    <html>
+        <head>
+            <!-- ... -->
+        </head>
+        <body>
+            <!-- ... -->
+        </body>
+    </html>
+    <hr>
+    
+    <!-- Iframes (iframe) -->
+    <iframe src="https://www.example.com" width="500" height="300"></iframe>
+    <hr>
+    
+    <!-- Image (img) -->
+    <img src="image.jpg" alt="Image Description" width="300" height="200">
+    <hr>
+    
+    <!-- Input (input) -->
+    <input type="text" id="username" name="username" placeholder="Username" required>
+    <hr>
+    
+    <!-- Inserted Text (ins) -->
+    <ins datetime="2023-09-24T12:00:00Z">Inserted Text</ins>
+    <hr>
+    
+    <!-- Isindex (isindex) - Deprecated -->
+    <isindex prompt="Search">
+    <hr>
+    
+    <!-- Italic (i) -->
+    <i>Italic Text</i>
+    <hr>
+    
+    <!-- Keyboard Input (kbd) -->
+    <kbd>Ctrl + C</kbd>
+    <hr>
+    
+    <!-- Keygen (keygen) -->
+    <keygen name="encryptionKey">
+    <hr>
+    
+    <!-- Label (label) -->
+    <label for="inputField">Input Field:</label>
+    <input type="text" id="inputField" name="inputField">
+    <hr>
+    
+    <!-- Legend (legend) - Associated with fieldset -->
+    <fieldset>
+        <legend>Fieldset Legend</legend>
+        <input type="radio" name="option" value="Option 1">Option 1
+        <input type="radio" name="option" value="Option 2">Option 2
+    </fieldset>
+    <hr>
+    
+    <!-- List (list) -->
+    <ul>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+    </ul>
+    <hr>
+    
+    <!-- Main (main) -->
+    <main>
+        <h1>Main Content</h1>
+        <p>This is the main content of the page.</p>
+    </main>
+    <hr>
+    
+    <!-- Mark (mark) -->
+    <mark>Highlighted Text</mark>
+    <hr>
+    
+    <!-- Marquee (marquee) - Deprecated -->
+    <marquee behavior="scroll" direction="left">Scrolling Text</marquee>
+    <hr>
+    
+    <!-- Menu Item (menuitem) -->
+    <menuitem label="File" icon="file.png" onclick="openFile()"></menuitem>
+    <hr>
+    
+    <!-- Meta (meta) - Metadata for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <hr>
+    
+    <!-- Meter (meter) -->
+    <meter value="75" min="0" max="100">75%</meter>
+    <hr>
+    
+    <!-- Navigation (nav) -->
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+    <hr>
+    
+    <!-- No Break (nobr) - Deprecated -->
+    <nobr>No Break Text</nobr>
+    <hr>
+    
+    <!-- No Embed (noembed) - Deprecated -->
+    <noembed>Your browser does not support embedded content.</noembed>
+    <hr>
+    
+    <!-- No Script (noscript) -->
+    <noscript>
+        <p>This page requires JavaScript to function properly.</p>
+    </noscript>
+    <hr>
+    
+    <!-- Object (object) -->
+    <object data="document.pdf" type="application/pdf" width="500" height="300">
+        <p>PDF cannot be displayed.</p>
+    </object>
+    <hr>
+    
+    <!-- Optgroup (optgroup) and Option (option) - Used in select elements -->
+    <select>
+        <optgroup label="Group 1">
+            <option value="Option 1">Option 1</option>
+            <option value="Option 2">Option 2</option>
+        </optgroup>
+        <optgroup label="Group 2">
+            <option value="Option 3">Option 3</option>
+            <option value="Option 4">Option 4</option>
+        </optgroup>
+    </select>
+    <hr>
+    
+    <!-- Output (output) -->
+    <label for="num1">Number 1:</label>
+    <input type="number" id="num1" name="num1">
+    <label for="num2">Number 2:</label>
+    <input type="number" id="num2" name="num2">
+    <output for="num1 num2"></output>
+    <hr>
+    
+    <!-- Paragraph (p) -->
+    <p>This is a paragraph.</p>
+    <hr>
+    
+    <!-- Param (param) - Used in object elements -->
+    <object data="video.mp4" type="video/mp4" width="500" height="300">
+        <param name="autoplay" value="true">
+        <p>Video cannot be played.</p>
+    </object>
+    <hr>
+    
+    <!-- Phrase (samp) -->
+    <samp>Sample Output</samp>
+    <hr>
+    
+    <!-- Preformatted Text (pre) -->
+    <pre>
+        This is preformatted text.
+        It preserves whitespace and line breaks.
+    </pre>
+    <hr>
+    
+    <!-- Progress (progress) -->
+    <progress value="50" max="100">50%</progress>
+    <hr>
+    
+    <!-- Quotation (q) -->
+    <q>This is a short quotation.</q>
+    <hr>
+    
+    <!-- Ruby (ruby), Ruby Text (rt), Ruby Parentheses (rp) -->
+    <ruby>
+        漢 <rt>Kan</rt><rp>(</rp>かん<rp>)</rp>
+    </ruby>
+    <hr>
+    
+    <!-- Sample (s) -->
+    <s>Strikethrough Text</s>
+    <hr>
+    
+    <!-- Script (script) -->
+    <script>
+        alert("This is a script.");
+    </script>
+    <hr>
+    
+    <!-- Section (section) -->
+    <section>
+        <h1>Section Title</h1>
+        <p>Section Content</p>
+    </section>
+    <hr>
+    
+    <!-- Small (small) -->
+    <small>Small Text</small>
+    <hr>
+    
+    <!-- Source (source) - Used in audio and video elements -->
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <hr>
+    
+    <!-- Spacer (spacer) - Deprecated -->
+    <spacer type="horizontal" size="20"></spacer>
+    <hr>
+    
+    <!-- Span (span) -->
+    <span style="color: blue;">Colored Text</span>
+    <hr>
+    
+    <!-- Strike (strike) - Deprecated -->
+    <strike>Strikethrough Text</strike>
+    <hr>
+    
+    <!-- Strong (strong) -->
+    <strong>Strong Text</strong>
+    <hr>
+    
+    <!-- Style (style) - CSS styles -->
+    <style>
+        p {
+            color: red;
+        }
+    </style>
+    <p>This is styled text.</p>
+    <hr>
+    
+    <!-- Subscript (sub) and Superscript (sup) -->
+    H<sub>2</sub>O is water.<br>
+    E=mc<sup>2</sup>
+    <hr>
+    
+    <!-- Summary (summary) -->
+    <details>
+        <summary>Click to expand</summary>
+        <p>Hidden content revealed.</p>
+    </details>
+    <hr>
+    
+    <!-- SVG (svg) - Scalable Vector Graphics -->
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="red" />
+    </svg>
+    <hr>
+    
+    <!-- Table (table) -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    
+    <!-- Table Body (tbody), Table Row (tr), Table Data (td) -->
+    <table border="1">
+        <tbody>
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    
+    <!-- Template (template) -->
+    <template id="my-template">
+        <p>This is a template.</p>
+    </template>
+    <button onclick="loadTemplate()">Load Template</button>
+    <hr>
+    
+    <!-- Table Footer (tfoot) -->
+    <table border="1">
+        <tfoot>
+            <tr>
+                <td colspan="2">Table Footer</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    
+    <!-- Table Header (thead) -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    
+    <!-- Time (time) -->
+    <time datetime="2023-09-24T12:00:00Z">September 24, 2023</time>
+    <hr>
+    
+    <!-- Title (title) - Document title -->
+    <title>Page Title</title>
+    <hr>
+    
+    <!-- Table Row (tr) and Table Data (td) -->
+    <table border="1">
+        <tr>
+            <td>Row 1, Cell 1</td>
+            <td>Row 1, Cell 2</td>
+        </tr>
+        <tr>
+            <td>Row 2, Cell 1</td>
+            <td>Row 2, Cell 2</td>
+        </tr>
+    </table>
+    <hr>
+    
+    <!-- Track (track) - Used in video elements for subtitles -->
+    <video controls>
+        <source src="video.mp4" type="video/mp4">
+        <track src="subtitles.vtt" kind="subtitles" label="English" srclang="en">
+    </video>
+    <hr>
+    
+    <!-- Teletype Text (tt) -->
+    <tt>Teletype Text</tt>
+    <hr>
+    
+    <!-- Underline (u) -->
+    <u>Underlined Text</u>
+    <hr>
+    
+    <!-- Variable (var) -->
+    <var>x</var> is a variable.
+    <hr>
+    
+    <!-- Video (video) -->
+    <video controls width="320" height="240">
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <hr>
+    
+    <!-- Word Break Opportunity (wbr) -->
+    This is a longwordthatneedstobreak <wbr> at this point.
+    <hr>
+    
+    <!-- XMP (xmp) - Deprecated -->
+    <xmp>This is preformatted text.</xmp>
+    <hr>
+</body>
+</html>

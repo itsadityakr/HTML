@@ -1,0 +1,120 @@
+<!DOCTYPE html> <!-- Document type declaration indicating an HTML5 document -->
+<html lang="en"> <!-- Start of the HTML document with the language set to English -->
+<head>
+    <meta charset="UTF-8"> <!-- Metadata specifying character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Metadata for responsive design -->
+    <title>Input Attributes Example</title> <!-- Title of the web page displayed in the browser -->
+</head>
+<body>
+    <h2>Input Attributes Example</h2> <!-- Heading level 2 for the page title -->
+
+    <form> <!-- Start of a form element for user input -->
+        <label for="accept">Accept (File):</label> <!-- Label for a file input element -->
+        <input type="file" id="accept" accept=".jpg, .jpeg, .png"><br><br> <!-- File input element with "accept" attribute -->
+
+        <label for="alt">Alt (Image):</label> <!-- Label for an image input element -->
+        <input type="image" id="alt" src="image.png" alt="Alternate Text"><br><br> <!-- Image input element with "alt" attribute -->
+
+        <label for="autocomplete">Autocomplete:</label> <!-- Label for a text input element -->
+        <input type="text" id="autocomplete" autocomplete="on"><br><br> <!-- Text input element with "autocomplete" attribute -->
+
+        <label for="capture">Capture (File):</label> <!-- Label for a file input element -->
+        <input type="file" id="capture" capture="camera"><br><br> <!-- File input element with "capture" attribute -->
+
+        <label for="checked">Checked (Checkbox):</label> <!-- Label for a checkbox input element -->
+        <input type="checkbox" id="checked" checked><br><br> <!-- Checkbox input element with "checked" attribute -->
+
+        <label for="dirname">Dirname (Text):</label> <!-- Label for a text input element -->
+        <input type="text" id="dirname" dirname="dir"><br><br> <!-- Text input element with "dirname" attribute -->
+
+        <label for="disabled">Disabled:</label> <!-- Label for a text input element -->
+        <input type="text" id="disabled" disabled><br><br> <!-- Text input element with "disabled" attribute -->
+
+        <label for="form">Form:</label> <!-- Label for a text input element -->
+        <input type="text" id="form" form="exampleForm"><br><br> <!-- Text input element with "form" attribute -->
+
+        <label for="formaction">Form Action (Image):</label> <!-- Label for an image input element -->
+        <input type="image" id="formaction" src="image.png" formaction="submit.php"><br><br> <!-- Image input element with "formaction" attribute -->
+
+        <label for="formenctype">Form Enctype (Image):</label> <!-- Label for an image input element -->
+        <input type="image" id="formenctype" src="image.png" formenctype="multipart/form-data"><br><br> <!-- Image input element with "formenctype" attribute -->
+
+        <label for="formmethod">Form Method (Image):</label> <!-- Label for an image input element -->
+        <input type="image" id="formmethod" src="image.png" formmethod="post"><br><br> <!-- Image input element with "formmethod" attribute -->
+
+        <label for="formnovalidate">Form Novalidate (Image):</label> <!-- Label for an image input element -->
+        <input type="image" id="formnovalidate" src="image.png" formnovalidate><br><br> <!-- Image input element with "formnovalidate" attribute -->
+
+        <label for="formtarget">Form Target (Image):</label> <!-- Label for an image input element -->
+        <input type="image" id="formtarget" src="image.png" formtarget="_blank"><br><br> <!-- Image input element with "formtarget" attribute -->
+
+        <label for="height">Height (Image):</label> <!-- Label for an image input element -->
+        <input type="image" id="height" src="image.png" height="100"><br><br> <!-- Image input element with "height" attribute -->
+
+        <label for="list">List (Text):</label> <!-- Label for a text input element -->
+        <input type="text" id="list" list="datalist"><br><br> <!-- Text input element with "list" attribute -->
+
+        <datalist id="datalist"> <!-- Datalist element for providing options for the "list" attribute -->
+            <option value="Option 1"> <!-- Option 1 in the datalist -->
+            <option value="Option 2"> <!-- Option 2 in the datalist -->
+            <option value="Option 3"> <!-- Option 3 in the datalist -->
+        </datalist>
+
+        <label for="max">Max (Number):</label> <!-- Label for a number input element -->
+        <input type="number" id="max" max="100"><br><br> <!-- Number input element with "max" attribute -->
+
+        <label for="maxlength">Maxlength (Text):</label> <!-- Label for a text input element -->
+        <input type="text" id="maxlength" maxlength="10"><br><br> <!-- Text input element with "maxlength" attribute -->
+
+        <label for="min">Min (Number):</label> <!-- Label for a number input element -->
+        <input type="number" id="min" min="0"><br><br> <!-- Number input element with "min" attribute -->
+
+        <label for="minlength">Minlength (Text):</label> <!-- Label for a text input element -->
+        <input type="text" id="minlength" minlength="5"><br><br> <!-- Text input element with "minlength" attribute -->
+
+        <label for="multiple">Multiple (File):</label> <!-- Label for a file input element -->
+        <input type="file" id="multiple" multiple><br><br> <!-- File input element with "multiple" attribute -->
+
+        <label for="name">Name (Text):</label> <!-- Label for a text input element -->
+        <input type="text" id="name" name="inputName"><br><br> <!-- Text input element with "name" attribute -->
+
+        <label for="pattern">Pattern (Text):</label> <!-- Label for a text input element -->
+        <input type="text" id="pattern" pattern="[A-Za-z]+"><br><br> <!-- Text input element with "pattern" attribute -->
+
+        <label for="placeholder">Placeholder (Text):</label> <!-- Label for a text input element -->
+        <input type="text" id="placeholder" placeholder="Enter text"><br><br> <!-- Text input element with "placeholder" attribute -->
+
+        <label for="popovertarget">Popovertarget (Button):</label> <!-- Label for a button input element -->
+        <input type="button" id="popovertarget" popovertarget="popover"><br><br> <!-- Button input element with custom "popovertarget" attribute -->
+
+        <div id="popover" style="display: none;">This is a popover element.</div> <!-- Hidden popover content -->
+
+        <label for="popovertargetaction">Popovertargetaction (Button):</label> <!-- Label for a button input element -->
+        <input type="button" id="popovertargetaction" popovertargetaction="show"><br><br> <!-- Button input element with custom "popovertargetaction" attribute -->
+
+        <label for="readonly">Readonly (Text):</label> <!-- Label for a text input element -->
+        <input type="text" id="readonly" readonly value="Readonly"><br><br> <!-- Text input element with "readonly" attribute -->
+
+        <label for="required">Required (Text):</label> <!-- Label for a text input element -->
+        <input type="text" id="required" required><br><br> <!-- Text input element with "required" attribute -->
+
+        <label for="size">Size (Text):</label> <!-- Label for a text input element -->
+        <input type="text" id="size" size="20"><br><br> <!-- Text input element with "size" attribute -->
+
+        <label for="src">Src (Image):</label> <!-- Label for an image input element -->
+        <input type="image" id="src" src="image.png"><br><br> <!-- Image input element with "src" attribute -->
+
+        <label for="step">Step (Number):</label> <!-- Label for a number input element -->
+        <input type="number" id="step" step="5"><br><br> <!-- Number input element with "step" attribute -->
+
+        <label for="type">Type (Text):</label> <!-- Label for a text input element -->
+        <input type="text" id="type" type="text" value="Input Type"><br><br> <!-- Text input element with "type" attribute -->
+
+        <label for="value">Value (Text):</label> <!-- Label for a text input element -->
+        <input type="text" id="value" value="Initial Value"><br><br> <!-- Text input element with "value" attribute -->
+
+        <label for="width">Width (Image):</label> <!-- Label for an image input element -->
+        <input type="image" id="width" src="image.png" width="100"><br><br> <!-- Image input element with "width" attribute -->
+    </form> <!-- End of the form element -->
+</body>
+</html>
